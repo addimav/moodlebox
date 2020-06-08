@@ -2,7 +2,7 @@
 # MoodleBox version and release date.
 moodlebox_version: '3.5.1'
 moodlebox_release_date: '2019-11-30'
-moodlebox_name: 'MoodleBox'
+moodlebox_name: 'StudyBox'
 
 # MoodleBox hostname (taken from inventory).
 moodlebox_hostname: '{{ inventory_hostname }}'
@@ -53,7 +53,7 @@ moodlebox_locales:
   - 'de_DE.UTF-8'
   - 'es_ES.UTF-8'
   - 'it_IT.UTF-8'
-moodlebox_timezone: 'Europe/Paris'
+moodlebox_timezone: 'Africa/Harare'
 
 # Public key filename.
 moodlebox_public_key_file: 'id_rsa.pub'
